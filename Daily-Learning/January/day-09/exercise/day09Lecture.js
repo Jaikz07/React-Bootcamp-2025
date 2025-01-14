@@ -1,4 +1,4 @@
-JavaScript Arrays and Objects Methods – Comprehensive Lecture
+/*JavaScript Arrays and Objects Methods – Comprehensive Lecture
 
 1. Arrays in JavaScript
 What is an Array?
@@ -159,3 +159,4 @@ Final Notes:
 ●Arrays are best for ordered data, like lists.
 ●Objects are ideal for structured, key-value data.
 Mastering these methods is essential for building robust JavaScript applications.
+*/

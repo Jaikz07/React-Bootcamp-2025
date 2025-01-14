@@ -14,6 +14,8 @@ It is used to create a new array using an existing array.
 -Performance: It is faster than other methods like concat() or slice().
 -Veraity of uses: It can be used for copying, merging, and spreading elements.
 */
+const aNewArray = [...filteredProducts, 'dark_shades', 'sunglasses'];
+console.log('A new array:', aNewArray);
 // 2. Remove the first product from the list
 products.shift();
 
@@ -22,13 +24,14 @@ products.sort();
 
 // 4. Find and log the index of 'watches'
 const watchesIndex = products.indexOf('watches');
-console.log('Index of watches:', watchesIndex);
+// console.log('Index of watches:', watchesIndex);
 
 // 5. Filter out all products that start with the letter 's'
 const filteredProducts = products.filter(product => !product.startsWith('s'));
-console.log('Filtered products:', filteredProducts);
 
-// Task 2: Object Operations
+// console.log('Filtered products:', filteredProducts);
+
+/* Task 2: Object Operations
 const student = {
     name: 'John Doe',
     age: 20,
@@ -51,3 +54,4 @@ console.log('Student values:', Object.values(student));
 for (const key in student) {
     console.log(`${key}: ${student[key]}`);
 }
+*/

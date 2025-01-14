@@ -20,6 +20,8 @@ Push codes and send url
  9. Save your favorite movie title in a variable.
  10. Declare a variable for your country of origin.
 */
+"use strict";
+
  // Variable Declaration...
  const firstName = 'Jacob';
  const lastName = 'Solomon';
