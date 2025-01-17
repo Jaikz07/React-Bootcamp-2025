@@ -38,8 +38,6 @@ for (const key in student) {
 
 /*Classwork Assignment: Object Manipulation and Iteration in JavaScript
 
-
-
 Objective:
 To understand how to create and manipulate objects in JavaScript, and use loops to iterate over their properties.
 Scenario:
@@ -110,7 +108,7 @@ let totalCourses = 0; //assigns a variable totalCourses to count the total numbe
 let gradeACount = 0; // assigns a variable gradeACount to count the number of courses with a grade of 'A' starting at 0.
 let gradeBOrLowerCount = 0; //assigns a variable gradeBOrLowerCount to count the number of courses with a grade of 'B' or lower. starting at 0.
 
-for (const subjects in courses) { //Starts a loop that iterates over each property () in the courses object. The course variable represents the property name (course name) in each iteration.
+for (const subjects in courses) { //Starts a loop that iterates over each property () in the courses object. The subject variable represents the property name (course name) in each iteration.
     totalCourses++; //Increments the totalCourses variable by 1 for each course in the object.
     if (courses[subjects] === "A") { //Checks if the grade for the current course is 'A'.
         gradeACount++; //If the grade is 'A', it increments the gradeACount variable by 1.
