@@ -170,10 +170,9 @@ student.getInfo(); //Displays the student's name and age.
 
 //Task 3.
 //Defining Function using the Arrow function.
-const multiply = () => {
-    console.log(a, b);
-    return a * b;
-};
+const multiply = (value1, value2) =>
+    value1 * value2
+console.log(multiply(3, 4));
 
 const result = multiply(); //Invokes the function multiply.
 
