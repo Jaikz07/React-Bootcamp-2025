@@ -279,7 +279,6 @@ const signOfANumberThree = Math.sign(0)
     // Use the Pythagorean theorem 
     // c2=a2+b2 
     
-
     const getHypotenuse = (a, b) => 
         Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
     console.log(getHypotenuse(3, 4))
@@ -306,8 +305,8 @@ const signOfANumberThree = Math.sign(0)
     // console.log(calculateCompoundInterest(1000, 5, 2));
 
 //Class work 
-const exponentialValue = Math.exp(2);
-const logarithmicValue = Math.log(2);
+const exponentialValueOf = Math.exp(2);
+const logarithmicValueOf = Math.log(2);
 //Using the Math method convert (a). 0.6931471805599453 and (b). 7.38905098930652 to who number.
 
 // Solution.
