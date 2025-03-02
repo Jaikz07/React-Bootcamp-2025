@@ -62,7 +62,7 @@ try {
 //Cod_1:
 //A for loop that prints numbers from 100 to 90 in descending order.
 for (let i = 100; i >= 90; i--) {
-    conso   le.log(i);
+    console.log(i);
 }
 
 //Cod2:
@@ -83,8 +83,46 @@ console.log(findSquare("test"));// Output: Input is not a number
 
 //Cod3:
 //Using a while loop to print numbers from 1 to 10.
-let i = 1;
-while (i <= 10) {
-    console.log(i);
-    i++;
+let j = 1;
+while (j <= 10) {
+    console.log(j);
+    j++;
 }
+
+
+//Assignment
+//Telling time and Season.
+const getTime = () => {
+    const currentHour = new Date().getHours();
+    let timeOfDay;
+
+    switch (true) {
+        case (currentHour >= 0 && currentHour <= 5):
+            timeOfDay = 'This is early morning';
+            break;
+        case (currentHour === 6):
+            timeOfDay = 'This is dawn';
+            break;
+        case (currentHour >= 7 && currentHour <= 11):
+            timeOfDay = 'This is morning';
+            break;
+        case (currentHour >= 12 && currentHour <= 15):
+            timeOfDay = 'This is mid noon';
+            break;
+        case (currentHour >= 16 && currentHour <= 18):
+            timeOfDay = 'This is early evening';
+            break;
+        case (currentHour >= 19 && currentHour <= 20):
+            timeOfDay = 'This is late evening';
+            break;
+        case (currentHour >= 21 && currentHour <= 23):
+            timeOfDay = 'This is late night';
+            break;
+        default:
+            timeOfDay = 'You are in between a season';
+    }
+
+    console.log(timeOfDay);
+};
+
+getTime();
