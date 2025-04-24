@@ -34,9 +34,21 @@ createAccountBtn.addEventListener("click", (e) => {
 
     //adding new account to array
     accounts.push(newAccount);
+    
+    // Clear the previous display
+    console.clear(); // Clears the console
 
     //display account list
-    console.log(accountList);
+    //console.log(accounts);
+    accounts.forEach((account, index) => {
+        console.log(`Account ${index + 1}:`);
+        console.log(`Name: ${account.accountName}`);
+        console.log(`Number: ${account.accountNumber}`);
+        console.log(`Type: ${account.accountType}`);
+        console.log(`Balance: ${account.balance}`);
+        console.log('-------------------');
+    });
+
 
     form.reset();
 });
